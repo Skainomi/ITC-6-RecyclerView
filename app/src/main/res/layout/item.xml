@@ -6,10 +6,10 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:orientation="horizontal"
+    android:paddingStart="30dp"
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="20dp"
     app:cardPreventCornerOverlap="true"
-    android:paddingStart="30dp"
     tools:ignore="RtlSymmetry">
 
     <LinearLayout
@@ -35,17 +35,20 @@
             <TextView
                 android:id="@+id/tv_nama"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/tv_producer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/tv_pesan"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
